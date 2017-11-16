@@ -39,10 +39,11 @@ projet).
 Vous allez dans un premier temps devoir définir les wireframes de vos écrans de navigation.
 Vous aurez la responsabilité de justifier vos choix technologiques.
 les routes seront standard : (sous la forme `/listeContact/` ) 
-    - GET
-    - POST
-    - PUT
-    - DELETE
+ * GET
+ * POST
+ * PUT
+ * DELETE
+ 
 Le schéma d'un contact selon cet exemple :
    
 ```
