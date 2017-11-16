@@ -45,7 +45,7 @@ les routes seront standard : (sous la forme `/listeContact/` )
     - DELETE
 Le schéma d'un contact selon cet exemple :
    
-```json
+```
 nom:
 prenom:
 titre:
