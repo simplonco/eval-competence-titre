@@ -1,0 +1,50 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.header {
+  font-family: cursive;
+}
+
+.liste-item {
+  list-style-type: none;
+  margin: 10px auto;
+}
+
+.infos {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p {
+  font-family: cursive;
+  font-size: 17px;
+}
+
+.form {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+  background-color: #333;
+  color: gold;
+  font-family: cursive;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+  color: #333;
+}

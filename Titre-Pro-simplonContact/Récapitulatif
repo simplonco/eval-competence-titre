@@ -1,0 +1,47 @@
+simplonContact:
+
+Premières étapes:
+
+    - create-react-app pour créer le projet
+
+    - je décide de commencer par le back-end avec les packages express, mongoose
+    
+    - je sépare le dossier server en 3 sous-dossiers (config, model, routes) qui me serviront plus tard
+    
+    - j'écris ma config dans le fichier config.js qui se trouve dans le dossier config qu'on a crée juste avant
+
+    - je crée le model de mon livre, en utilisant le schéma de mongoose
+
+    - ensuite je peux commencer à faire mes routes (CRUD) dans le fichier routes.js dans le dossier routes et je teste au fur et à mesure que chaque routes que je crée fonctionne et qu'elle ne pose pas de problèmes aux routes déjà existantes
+
+    - j'importe tout les fichiers nécessaires (config.js, routes.js) dans mon fichier server principal (server.js)
+
+    - suite à cela, je peux m'occuper du front
+
+    - j'ai besoin d'installer les packages request ainsi que cors (pour ne pas avoir cette fameuse erreur une fois le lien avec la base de donnée effectué) pour relier mon front et mon back
+
+    - j'utilise la méthode componentDidMount() de React où je fais mon request et demande à mon front de se connecter à l'adresse de ma base de donnée qui correspond au port dans mon fichier config.js
+
+    - je crée un tableau ou je vais stocker toute ma data avec state = {}
+
+    -  et je setState({}) au moment du request pour envoyer la data que je récupère dans mon back dans le tableau que je viens de créer
+
+    - je crée ensuite un dossier components où je vais créer tout mes composants React
+
+    - je crée tout d'abord un composant Bibliotheque.js qui me permettra d'afficher les données de ma DB
+
+    - j'utilise un map, qui parcourera tout le tableau ou ma data est stockée, et qui affichera chaque élément qu'il croise dans ce tableau
+
+    - j'ajoute ensuite deux composants, Form.js et DeleteButton.js
+
+    - Form.js permet de rajouter des livres dans la bibliotheque
+
+    - DeleteButton.js permet de supprimer des livres de la bibliothèque
+
+    - j'utilise, pour Form.js un <form></form> avec pour action la route associé à ma méthode POST dans mon CRUD, et avec pour method la méthode associée, donc POST
+    
+    - pour mon DeleteButton.js, je fais pareil avec la bonne action et method associée à ma route
+
+    - suite à cela, j'ai une api fonctionnelle, et il ne reste plus qu'à faire du CSS pour rendre tout cela un peu plus agréable à regarder :)
+
+
