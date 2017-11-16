@@ -1,0 +1,17 @@
+Form {
+	margin-bottom: 40px; 
+}
+
+Form Input {
+	margin-top: 5px;
+	width: 200px;
+	height: 25px;
+	font-size: 10px;
+}
+
+Form Button {
+	margin-top: 10px;
+	width: 200px;
+	height: 25px;
+	font-size: 15px;
+}
