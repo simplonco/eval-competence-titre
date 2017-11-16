@@ -1,0 +1,40 @@
+
+
+.cardContactDiv {
+    text-align: center;
+    border: 1px solid #60C0DC;
+    border-radius: 2%;
+    padding: 1%;
+    margin: 4%;
+}
+
+ul {
+    padding: 0;
+}
+
+.listContacts > li {
+    list-style: none;    
+    margin: 0;
+}
+
+
+.titleContact {
+    font-size: 1.8em;
+}
+
+.authorContact {
+    font-size: 1.3em;
+}
+
+.dateContact {
+    font-size: 1.1em;
+}    
+
+.formButton {
+    padding-bottom: 2%;
+}
+
+.updateButton, .deleteButton {
+    padding-bottom: 4%;
+    width: 100%;
+}
