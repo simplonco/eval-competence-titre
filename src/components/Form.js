@@ -5,7 +5,7 @@ class Form extends Component {
     return (
       <div className="Form">
         <h1>Ajouter un contact</h1>
-        <form action="http://localhost:3012/listeContact/add" method="POST" encType="multipart/form-data">
+        <form action="http://localhost:3012/listeContact/add" method="POST">
           <label>Nom :</label>
           <input type="text" name="nom"/><br/>
           <label> Prénom :</label>
