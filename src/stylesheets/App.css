@@ -10,10 +10,42 @@
 
 .Form {
   text-align: center;
-  width: 92%;
-  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .Form label {
   margin-right: 7px;
+}
+
+.Form-title {
+  color: #242424;
+}
+
+.List {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.List-card a {
+  margin-top: 30px;
+}
+
+.List-card {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px #ccc;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.List-card h4 {
+  margin: 5px 0;
+}
+
+.List-card a {
 }

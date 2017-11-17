@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+// Material-ui
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
+
+// Components
 import Form from './Form';
 import List from './List';
 
+// CSS
 import '../stylesheets/App.css';
 
 class App extends Component {
@@ -23,6 +28,7 @@ class App extends Component {
         this.setState({
           contacts: result
         })
+        console.log(this.state.contacts);
       })
       .catch((res, err) => res.send(err));
   }

@@ -1,16 +1,25 @@
 import React, { Component } from 'react';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class List extends Component {
   render() {
-    const contacts = this.props.contacts.map(contact =>
-      <li>{contact.prenom}, {contact.nom} - {contact.titre} chez {contact.entreprise}</li>
-    );
-
     return (
-      <ul>
-        {contacts}
-      </ul>
-    );
+      <div className="List">
+        {this.props.contacts.map(contact =>
+          <div className="List-card">
+            <h4>{contact.prenom} {contact.nom}</h4>
+            {contact.titre} chez {contact.entreprise} <br/>
+            {contact.adresse} <br/>
+            {contact.email} <br/>
+            {contact.telephone.mobile} <br/>
+            {contact.telephone.work} <br/>
+            <a href={`http://localhost:3012/listeContact/${contact._id}/delete`}>
+              <RaisedButton type="submit" label="Supprimer" secondary={true} />
+            </a>
+          </div>
+          )}
+      </div>
+    )
   }
 }
 
