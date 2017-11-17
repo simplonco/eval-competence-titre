@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Source Sans Pro', sans-serif;
+  /*width: 92%;
+  margin: 0 auto;*/
+}
+
+.Form {
+  text-align: center;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.Form label {
+  margin-right: 7px;
+}

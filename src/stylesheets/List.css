@@ -1,0 +1,57 @@
+.List {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.Card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  height: 330px;
+  position: relative;
+  margin: 25px;
+  box-shadow: 2px 2px 10px #ddd;
+}
+
+.Card-img {
+  height: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Card-img img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.Card-info {
+  height: 40%;
+  padding: 15px;
+}
+
+.Card-info-name {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  margin: 0;
+}
+
+.Card-info p {
+  font-size: 13px;
+  color: #383838;
+  margin: 7px 0;
+}
+
+.close {
+  position: absolute;
+  top: 2px;
+  right: 7px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
